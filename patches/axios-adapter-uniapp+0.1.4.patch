@@ -1,0 +1,13 @@
+diff --git a/node_modules/axios-adapter-uniapp/helper/format.js b/node_modules/axios-adapter-uniapp/helper/format.js
+index 9a3dd64..71c59ce 100644
+--- a/node_modules/axios-adapter-uniapp/helper/format.js
++++ b/node_modules/axios-adapter-uniapp/helper/format.js
+@@ -10,7 +10,7 @@ const isUploadFile = require('./isUploadFile')
+ 
+ module.exports = function format(config, resolve, reject) {
+   const fullPath = buildFullPath(config.baseURL, config.url)
+-  const requestHeaders = config.headers
++  const requestHeaders = config.headers?.toJSON?config.headers.toJSON():config.headers
+ 
+   const uniConfig = {
+     ...config,
