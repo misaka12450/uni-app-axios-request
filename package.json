@@ -1,7 +1,7 @@
 {
   "name": "uni-app-axios",
   "version": "1.0.0",
-  "description": "兼容 uniapp 的 axios",
+  "description": "axios的uni-app封装",
   "typings": "./types/index.d.ts",
   "main": "lib/index.js",
   "module": "dist/index.js",
@@ -21,8 +21,9 @@
   "keywords": [
     "axios",
     "uni-app",
-    "adapter"
+    "request",
+    "uni"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
