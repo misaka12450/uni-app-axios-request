@@ -1,6 +1,8 @@
 {
-  "name": "uni-app-axios",
-  "version": "1.0.0",
+  "name": "uni-app-request",
+  "private": false,
+  "repository": "https://github.com/misaka12450/uni-axios-request",
+  "version": "0.0.1",
   "description": "axios for uni-app",
   "typings": "./types/index.d.ts",
   "main": "lib/index.js",
