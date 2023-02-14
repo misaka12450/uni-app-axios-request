@@ -2,7 +2,7 @@
   "name": "uni-app-axios-request",
   "private": false,
   "repository": "https://github.com/misaka12450/uni-axios-request",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "axios for uni-app",
   "typings": "./types/index.d.ts",
   "main": "lib/index.js",
