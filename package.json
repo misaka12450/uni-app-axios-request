@@ -1,7 +1,7 @@
 {
   "name": "uni-app-axios",
   "version": "1.0.0",
-  "description": "axios的uni-app封装",
+  "description": "axios for uni-app",
   "typings": "./types/index.d.ts",
   "main": "lib/index.js",
   "module": "dist/index.js",
